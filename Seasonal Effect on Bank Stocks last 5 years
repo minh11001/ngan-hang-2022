@@ -1,7 +1,0 @@
-# Cycle & Season
-
-Trong thị trường chứng khoán, khi nói đến chu kỳ người ta thường hay nghĩ đến chu kỳ giá cổ phiếu theo lý thuyết Đao, hoặc chu kỳ (cyclical stock) do tác động bởi các yếu tố vĩ mô hay các giai đoạn phát triển của nền kinh tế. Các chu kỳ kiểu này là một vòng tuần hoàn được lặp lại sau một thời gian đã trải qua hết các pha nhỏ bên trong (cycle). Chúng là những cấu trúc có tính toàn bộ (universal) giống như mọi sự vận động khác trên thế giới (chu trình thủy quyển, vòng đời, …).
-
-Chu kỳ muốn đề cập đến trong bài viết này nói chính xác hơn là tính mùa vụ (seasonal), là những hình mẫu thường xuất hiện ở một thời điểm cố định nào đó trong những khoảng thời gian xem xét như nhau. Như ở thị trường chứng khoán Châu Âu và Mỹ người ta thường có câu “Sell in May and go away”. Hay ở thị trường VN cũng có một vài thống kê cho thấy thứ Hai hàng tuần thị trường thường hay giảm nhưng lại tăng mạnh vào thứ Tư. Đây là kiểu phân tích hiệu ứng mùa vụ (seasonal effect), cách làm này dựa vào dữ liệu để tìm ra các biến động có tính lặp đi lặp lại và sử dụng các kết quả như một công cụ gia tăng trợ giúp cho việc đưa ra quyết định.
-
-Hãy thử sử dụng phương pháp này để phân tích tính chu kỳ của cổ phiếu CTG (VietinBank) trong 5 năm qua bằng đồ thị dưới đây:
