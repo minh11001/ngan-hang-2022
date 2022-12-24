@@ -42,7 +42,6 @@ for ticker in tickers:
                       index=['Jan', 'Feb', 'Mar', 'Apr', "May", 'Jun', 'Jul', "Aug", 'Sep', 'Oct', "Nov", 'Dec'])
   for i in ['2018','2019','2020','2021','2022']:
     df = ticker_prices[ticker][i:i].resample('M').apply(lambda ser: ser.iloc[-1,]) > ticker_prices[ticker][i:i].resample('M').apply(lambda ser: ser.iloc[0,])
-    if (df.empty == False) and len(df) == 12:
-      months[ticker] = months[ticker] + df.values
+    months[ticker] = months[ticker] + df.values
   summary = pd.concat([summary, months], axis=1)
 ```
